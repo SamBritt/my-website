@@ -1,0 +1,107 @@
+
+@media (max-width: 797px) {
+    body {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  background: #EEEEEE;
+
+}
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: .70rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: .80rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: .90rem;
+  }
+}
+.container-fluid{
+  padding: 0;
+}
+
+.navbar{
+  padding: 1% 0;
+  font-size: 1.2em;
+  background: #454E5C;
+  margin-bottom: 0;
+  border: 0;
+}
+.navbar-brand{
+  min-height: 55px;
+  padding: 0 15px 15px;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+  color: #adbcd3;
+}
+#home{
+  background: url(img/clouds.jpg) no-repeat;
+  display: table;
+  position: relative;
+  width: 100%;
+  min-height: 700px;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.landing-text{
+  display: table-cell;
+  text-align:center;
+  vertical-align:middle;
+}
+.landing-text h2{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #FFF;
+
+}
+.padding{
+  padding: 20px 0;
+}
+.jumbotron{
+  background-size: contain;
+}
+/* responsive images */
+.responsive {
+    padding: 0 6px;
+
+    width: 70%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 70%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+.knowledge ul{
+  font-size: 1.5rem;
+}
+
+footer{
+  width: 100%;
+  background: #434E5B;
+  padding: 5% 5% 10% 5%;
+}
+footer h3{
+  color:#EEEEEE;
+}
